@@ -153,11 +153,41 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 
-.tab-contents ul li span {
-  color: #b54769;
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.skill-category {
+  padding-right: 40px;
+}
+.skill-category div {
+  color: #ff9727;
   font-size: 14px;
 }
 
+.company span {
+  color: #ff9727;
+  font-size: 14px;
+}
+.company ul {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.projects div {
+  color: #f087a3;
+  font-size: 14px;
+}
+.projects li {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.institute span {
+  color: #ff9727;
+  font-size: 14px;
+}
 .tab-contents {
   display: none;
 }
